@@ -1,0 +1,1155 @@
+2023-10-12 23:18:26,949 - DEBUG - GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+2023-10-12 23:18:26,949 - DEBUG - Command to send: A
+72048044f1ad74d9e614d84330be65bbdb39c803a32e855f3042167125cfb507
+
+2023-10-12 23:18:26,957 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,957 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+2023-10-12 23:18:26,958 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,958 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+2023-10-12 23:18:26,958 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,959 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+2023-10-12 23:18:26,959 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,959 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+2023-10-12 23:18:26,959 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,959 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+2023-10-12 23:18:26,959 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,959 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+2023-10-12 23:18:26,959 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,959 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+2023-10-12 23:18:26,959 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,959 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+2023-10-12 23:18:26,960 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,960 - DEBUG - Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+2023-10-12 23:18:26,960 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,960 - DEBUG - Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+2023-10-12 23:18:26,960 - DEBUG - Answer received: !yv
+2023-10-12 23:18:26,960 - DEBUG - Command to send: r
+u
+SparkConf
+rj
+e
+
+2023-10-12 23:18:26,963 - DEBUG - Answer received: !ycorg.apache.spark.SparkConf
+2023-10-12 23:18:26,963 - DEBUG - Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+2023-10-12 23:18:26,966 - DEBUG - Answer received: !yro0
+2023-10-12 23:18:26,966 - DEBUG - Command to send: c
+o0
+set
+sspark.app.name
+sStreamingConsumerApp
+e
+
+2023-10-12 23:18:26,969 - DEBUG - Answer received: !yro1
+2023-10-12 23:18:26,969 - DEBUG - Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+2023-10-12 23:18:26,969 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:26,969 - DEBUG - Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+2023-10-12 23:18:26,969 - DEBUG - Answer received: !yro2
+2023-10-12 23:18:26,969 - DEBUG - Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+2023-10-12 23:18:26,970 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:26,970 - DEBUG - Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+2023-10-12 23:18:26,970 - DEBUG - Answer received: !yro3
+2023-10-12 23:18:26,970 - DEBUG - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2023-10-12 23:18:26,970 - DEBUG - Answer received: !ybtrue
+2023-10-12 23:18:26,970 - DEBUG - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2023-10-12 23:18:26,970 - DEBUG - Answer received: !ybtrue
+2023-10-12 23:18:26,970 - DEBUG - Command to send: c
+o0
+contains
+sspark.master
+e
+
+2023-10-12 23:18:26,970 - DEBUG - Answer received: !ybtrue
+2023-10-12 23:18:26,970 - DEBUG - Command to send: c
+o0
+get
+sspark.master
+e
+
+2023-10-12 23:18:26,971 - DEBUG - Answer received: !yslocal[*]
+2023-10-12 23:18:26,971 - DEBUG - Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+2023-10-12 23:18:26,971 - DEBUG - Answer received: !ybtrue
+2023-10-12 23:18:26,971 - DEBUG - Command to send: c
+o0
+get
+sspark.app.name
+e
+
+2023-10-12 23:18:26,971 - DEBUG - Answer received: !ysStreamingConsumerApp
+2023-10-12 23:18:26,971 - DEBUG - Command to send: c
+o0
+contains
+sspark.home
+e
+
+2023-10-12 23:18:26,971 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:26,972 - DEBUG - Command to send: c
+o0
+getAll
+e
+
+2023-10-12 23:18:26,972 - DEBUG - Answer received: !yto4
+2023-10-12 23:18:26,972 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,972 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,972 - DEBUG - Command to send: a
+g
+o4
+i0
+e
+
+2023-10-12 23:18:26,972 - DEBUG - Answer received: !yro5
+2023-10-12 23:18:26,972 - DEBUG - Command to send: c
+o5
+_1
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !ysspark.app.submitTime
+2023-10-12 23:18:26,973 - DEBUG - Command to send: c
+o5
+_2
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !ys1697145506799
+2023-10-12 23:18:26,973 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,973 - DEBUG - Command to send: a
+g
+o4
+i1
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !yro6
+2023-10-12 23:18:26,973 - DEBUG - Command to send: c
+o6
+_1
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !ysspark.rdd.compress
+2023-10-12 23:18:26,973 - DEBUG - Command to send: c
+o6
+_2
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !ysTrue
+2023-10-12 23:18:26,973 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,973 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,973 - DEBUG - Command to send: a
+g
+o4
+i2
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !yro7
+2023-10-12 23:18:26,974 - DEBUG - Command to send: c
+o7
+_1
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !ysspark.serializer.objectStreamReset
+2023-10-12 23:18:26,974 - DEBUG - Command to send: c
+o7
+_2
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !ys100
+2023-10-12 23:18:26,974 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,974 - DEBUG - Command to send: a
+g
+o4
+i3
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !yro8
+2023-10-12 23:18:26,974 - DEBUG - Command to send: c
+o8
+_1
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !ysspark.master
+2023-10-12 23:18:26,974 - DEBUG - Command to send: c
+o8
+_2
+e
+
+2023-10-12 23:18:26,974 - DEBUG - Answer received: !yslocal[*]
+2023-10-12 23:18:26,974 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,975 - DEBUG - Command to send: a
+g
+o4
+i4
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !yro9
+2023-10-12 23:18:26,975 - DEBUG - Command to send: c
+o9
+_1
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !ysspark.submit.pyFiles
+2023-10-12 23:18:26,975 - DEBUG - Command to send: c
+o9
+_2
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !ys
+2023-10-12 23:18:26,975 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,975 - DEBUG - Command to send: a
+g
+o4
+i5
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !yro10
+2023-10-12 23:18:26,975 - DEBUG - Command to send: c
+o10
+_1
+e
+
+2023-10-12 23:18:26,975 - DEBUG - Answer received: !ysspark.submit.deployMode
+2023-10-12 23:18:26,975 - DEBUG - Command to send: c
+o10
+_2
+e
+
+2023-10-12 23:18:26,976 - DEBUG - Answer received: !ysclient
+2023-10-12 23:18:26,976 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,976 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,976 - DEBUG - Command to send: a
+g
+o4
+i6
+e
+
+2023-10-12 23:18:26,976 - DEBUG - Answer received: !yro11
+2023-10-12 23:18:26,976 - DEBUG - Command to send: c
+o11
+_1
+e
+
+2023-10-12 23:18:26,976 - DEBUG - Answer received: !ysspark.app.name
+2023-10-12 23:18:26,976 - DEBUG - Command to send: c
+o11
+_2
+e
+
+2023-10-12 23:18:26,976 - DEBUG - Answer received: !ysStreamingConsumerApp
+2023-10-12 23:18:26,976 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,977 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,977 - DEBUG - Command to send: a
+g
+o4
+i7
+e
+
+2023-10-12 23:18:26,977 - DEBUG - Answer received: !yro12
+2023-10-12 23:18:26,977 - DEBUG - Command to send: c
+o12
+_1
+e
+
+2023-10-12 23:18:26,977 - DEBUG - Answer received: !ysspark.ui.showConsoleProgress
+2023-10-12 23:18:26,977 - DEBUG - Command to send: c
+o12
+_2
+e
+
+2023-10-12 23:18:26,977 - DEBUG - Answer received: !ystrue
+2023-10-12 23:18:26,977 - DEBUG - Command to send: a
+e
+o4
+e
+
+2023-10-12 23:18:26,977 - DEBUG - Answer received: !yi8
+2023-10-12 23:18:26,977 - DEBUG - Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+2023-10-12 23:18:26,985 - DEBUG - Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+2023-10-12 23:18:26,985 - DEBUG - Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+2023-10-12 23:18:27,965 - DEBUG - Command to send: A
+72048044f1ad74d9e614d84330be65bbdb39c803a32e855f3042167125cfb507
+
+2023-10-12 23:18:27,965 - DEBUG - Answer received: !yv
+2023-10-12 23:18:27,965 - DEBUG - Command to send: m
+d
+o1
+e
+
+2023-10-12 23:18:27,966 - DEBUG - Answer received: !yv
+2023-10-12 23:18:27,966 - DEBUG - Command to send: m
+d
+o2
+e
+
+2023-10-12 23:18:27,966 - DEBUG - Answer received: !yv
+2023-10-12 23:18:27,966 - DEBUG - Command to send: m
+d
+o3
+e
+
+2023-10-12 23:18:27,966 - DEBUG - Answer received: !yv
+2023-10-12 23:18:27,966 - DEBUG - Command to send: m
+d
+o4
+e
+
+2023-10-12 23:18:27,966 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,214 - DEBUG - Answer received: !yro13
+2023-10-12 23:18:28,214 - DEBUG - Command to send: c
+o13
+sc
+e
+
+2023-10-12 23:18:28,216 - DEBUG - Answer received: !yro14
+2023-10-12 23:18:28,216 - DEBUG - Command to send: c
+o14
+conf
+e
+
+2023-10-12 23:18:28,225 - DEBUG - Answer received: !yro15
+2023-10-12 23:18:28,228 - DEBUG - Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+2023-10-12 23:18:28,230 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+2023-10-12 23:18:28,230 - DEBUG - Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i55670
+s72048044f1ad74d9e614d84330be65bbdb39c803a32e855f3042167125cfb507
+e
+
+2023-10-12 23:18:28,230 - DEBUG - Answer received: !yro16
+2023-10-12 23:18:28,230 - DEBUG - Command to send: c
+o13
+sc
+e
+
+2023-10-12 23:18:28,230 - DEBUG - Answer received: !yro17
+2023-10-12 23:18:28,230 - DEBUG - Command to send: c
+o17
+register
+ro16
+e
+
+2023-10-12 23:18:28,233 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,233 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-10-12 23:18:28,233 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-10-12 23:18:28,234 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+2023-10-12 23:18:28,234 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,234 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro13
+e
+
+2023-10-12 23:18:28,238 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:28,238 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-10-12 23:18:28,239 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-10-12 23:18:28,239 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+2023-10-12 23:18:28,239 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,239 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro13
+e
+
+2023-10-12 23:18:28,239 - DEBUG - Answer received: !yL15
+2023-10-12 23:18:28,239 - DEBUG - Command to send: r
+u
+PythonUtils
+rj
+e
+
+2023-10-12 23:18:28,240 - DEBUG - Answer received: !ycorg.apache.spark.api.python.PythonUtils
+2023-10-12 23:18:28,240 - DEBUG - Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+2023-10-12 23:18:28,240 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,240 - DEBUG - Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro13
+e
+
+2023-10-12 23:18:28,240 - DEBUG - Answer received: !yi65536
+2023-10-12 23:18:28,240 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-10-12 23:18:28,241 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,241 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-10-12 23:18:28,242 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,242 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-10-12 23:18:28,242 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,242 - DEBUG - Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+2023-10-12 23:18:28,242 - DEBUG - Answer received: !ycorg.apache.spark.SparkFiles
+2023-10-12 23:18:28,242 - DEBUG - Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2023-10-12 23:18:28,242 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,243 - DEBUG - Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+2023-10-12 23:18:28,243 - DEBUG - Answer received: !ysC:\\Users\\idea5\\AppData\\Local\\Temp\\spark-53a8fe18-e791-4378-8eab-99bde15d9042\\userFiles-23e4d3a1-b747-42d7-8ee3-b9f3bf4394b4
+2023-10-12 23:18:28,243 - DEBUG - Command to send: c
+o15
+get
+sspark.submit.pyFiles
+s
+e
+
+2023-10-12 23:18:28,244 - DEBUG - Answer received: !ys
+2023-10-12 23:18:28,244 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-10-12 23:18:28,245 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,245 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-10-12 23:18:28,245 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,245 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-10-12 23:18:28,245 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,245 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-10-12 23:18:28,246 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,246 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-10-12 23:18:28,247 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-10-12 23:18:28,247 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+2023-10-12 23:18:28,249 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,249 - DEBUG - Command to send: c
+o13
+sc
+e
+
+2023-10-12 23:18:28,249 - DEBUG - Answer received: !yro18
+2023-10-12 23:18:28,249 - DEBUG - Command to send: c
+o18
+conf
+e
+
+2023-10-12 23:18:28,249 - DEBUG - Answer received: !yro19
+2023-10-12 23:18:28,249 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro19
+e
+
+2023-10-12 23:18:28,250 - DEBUG - Answer received: !ysC:\\Users\\idea5\\AppData\\Local\\Temp\\spark-53a8fe18-e791-4378-8eab-99bde15d9042
+2023-10-12 23:18:28,250 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-10-12 23:18:28,251 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,251 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-10-12 23:18:28,252 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,252 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-10-12 23:18:28,252 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,252 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-10-12 23:18:28,252 - DEBUG - Answer received: !yp
+2023-10-12 23:18:28,252 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-10-12 23:18:28,252 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-10-12 23:18:28,252 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+2023-10-12 23:18:28,253 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,253 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+sC:\\Users\\idea5\\AppData\\Local\\Temp\\spark-53a8fe18-e791-4378-8eab-99bde15d9042
+spyspark
+e
+
+2023-10-12 23:18:28,254 - DEBUG - Answer received: !yro20
+2023-10-12 23:18:28,254 - DEBUG - Command to send: c
+o20
+getAbsolutePath
+e
+
+2023-10-12 23:18:28,254 - DEBUG - Answer received: !ysC:\\Users\\idea5\\AppData\\Local\\Temp\\spark-53a8fe18-e791-4378-8eab-99bde15d9042\\pyspark-6f39900e-3631-4a05-a0d0-c0a5f8b01575
+2023-10-12 23:18:28,255 - DEBUG - Command to send: c
+o15
+get
+sspark.python.profile
+sfalse
+e
+
+2023-10-12 23:18:28,255 - DEBUG - Answer received: !ysfalse
+2023-10-12 23:18:28,255 - DEBUG - Command to send: c
+o15
+get
+sspark.python.profile.memory
+sfalse
+e
+
+2023-10-12 23:18:28,255 - DEBUG - Answer received: !ysfalse
+2023-10-12 23:18:28,255 - DEBUG - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-10-12 23:18:28,281 - DEBUG - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-10-12 23:18:28,281 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+2023-10-12 23:18:28,305 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,305 - DEBUG - Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+2023-10-12 23:18:28,307 - DEBUG - Answer received: !yro21
+2023-10-12 23:18:28,307 - DEBUG - Command to send: c
+o21
+isDefined
+e
+
+2023-10-12 23:18:28,307 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:28,307 - DEBUG - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-10-12 23:18:28,308 - DEBUG - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-10-12 23:18:28,308 - DEBUG - Command to send: c
+o13
+sc
+e
+
+2023-10-12 23:18:28,308 - DEBUG - Answer received: !yro22
+2023-10-12 23:18:28,308 - DEBUG - Command to send: i
+java.util.HashMap
+e
+
+2023-10-12 23:18:28,308 - DEBUG - Answer received: !yao23
+2023-10-12 23:18:28,309 - DEBUG - Command to send: c
+o23
+put
+sspark.app.name
+sStreamingConsumerApp
+e
+
+2023-10-12 23:18:28,309 - DEBUG - Answer received: !yn
+2023-10-12 23:18:28,309 - DEBUG - Command to send: i
+org.apache.spark.sql.SparkSession
+ro22
+ro23
+e
+
+2023-10-12 23:18:28,366 - DEBUG - Answer received: !yro24
+2023-10-12 23:18:28,366 - DEBUG - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-10-12 23:18:28,367 - DEBUG - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-10-12 23:18:28,367 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+2023-10-12 23:18:28,367 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,367 - DEBUG - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro24
+e
+
+2023-10-12 23:18:28,370 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,370 - DEBUG - Command to send: r
+u
+SparkSession
+rj
+e
+
+2023-10-12 23:18:28,371 - DEBUG - Answer received: !ycorg.apache.spark.sql.SparkSession
+2023-10-12 23:18:28,371 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+2023-10-12 23:18:28,371 - DEBUG - Answer received: !ym
+2023-10-12 23:18:28,371 - DEBUG - Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro24
+e
+
+2023-10-12 23:18:28,371 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,381 - DEBUG - Command to send: c
+o24
+readStream
+e
+
+2023-10-12 23:18:28,969 - DEBUG - Command to send: m
+d
+o0
+e
+
+2023-10-12 23:18:28,969 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,969 - DEBUG - Command to send: m
+d
+o5
+e
+
+2023-10-12 23:18:28,969 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,969 - DEBUG - Command to send: m
+d
+o6
+e
+
+2023-10-12 23:18:28,969 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,969 - DEBUG - Command to send: m
+d
+o7
+e
+
+2023-10-12 23:18:28,969 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o8
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o9
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o10
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o11
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o12
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o14
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o23
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,970 - DEBUG - Command to send: m
+d
+o17
+e
+
+2023-10-12 23:18:28,970 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,971 - DEBUG - Command to send: m
+d
+o18
+e
+
+2023-10-12 23:18:28,971 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,971 - DEBUG - Command to send: m
+d
+o19
+e
+
+2023-10-12 23:18:28,971 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,971 - DEBUG - Command to send: m
+d
+o20
+e
+
+2023-10-12 23:18:28,971 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,971 - DEBUG - Command to send: m
+d
+o21
+e
+
+2023-10-12 23:18:28,971 - DEBUG - Answer received: !yv
+2023-10-12 23:18:28,971 - DEBUG - Command to send: m
+d
+o22
+e
+
+2023-10-12 23:18:28,971 - DEBUG - Answer received: !yv
+2023-10-12 23:18:29,166 - DEBUG - Answer received: !yro25
+2023-10-12 23:18:29,166 - DEBUG - Command to send: c
+o25
+format
+skafka
+e
+
+2023-10-12 23:18:29,166 - DEBUG - Answer received: !yro26
+2023-10-12 23:18:29,167 - DEBUG - Command to send: c
+o26
+option
+skafka.bootstrap.servers
+sYOUR_MSK_BROKER_URL
+e
+
+2023-10-12 23:18:29,167 - DEBUG - Answer received: !yro27
+2023-10-12 23:18:29,167 - DEBUG - Command to send: c
+o27
+option
+ssubscribe
+ssample_topic
+e
+
+2023-10-12 23:18:29,167 - DEBUG - Answer received: !yro28
+2023-10-12 23:18:29,167 - DEBUG - Command to send: c
+o28
+option
+sstartingOffsets
+searliest
+e
+
+2023-10-12 23:18:29,168 - DEBUG - Answer received: !yro29
+2023-10-12 23:18:29,168 - DEBUG - Command to send: c
+o29
+load
+e
+
+2023-10-12 23:18:29,477 - DEBUG - Answer received: !xro30
+2023-10-12 23:18:29,478 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-10-12 23:18:29,479 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,479 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-10-12 23:18:29,479 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,479 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-10-12 23:18:29,480 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-10-12 23:18:29,480 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-10-12 23:18:29,480 - DEBUG - Answer received: !ym
+2023-10-12 23:18:29,480 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro30
+e
+
+2023-10-12 23:18:29,480 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:29,480 - DEBUG - Command to send: r
+u
+py4j
+rj
+e
+
+2023-10-12 23:18:29,486 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,487 - DEBUG - Command to send: r
+u
+py4j.reflection
+rj
+e
+
+2023-10-12 23:18:29,487 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,487 - DEBUG - Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+2023-10-12 23:18:29,487 - DEBUG - Answer received: !ycpy4j.reflection.TypeUtil
+2023-10-12 23:18:29,487 - DEBUG - Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+2023-10-12 23:18:29,487 - DEBUG - Answer received: !ym
+2023-10-12 23:18:29,487 - DEBUG - Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro30
+e
+
+2023-10-12 23:18:29,487 - DEBUG - Answer received: !ybtrue
+2023-10-12 23:18:29,487 - DEBUG - Command to send: c
+o30
+getMessage
+e
+
+2023-10-12 23:18:29,488 - DEBUG - Answer received: !ysFailed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2023-10-12 23:18:29,488 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-10-12 23:18:29,490 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,490 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-10-12 23:18:29,490 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,490 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-10-12 23:18:29,490 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,490 - DEBUG - Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+2023-10-12 23:18:29,490 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,491 - DEBUG - Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+2023-10-12 23:18:29,491 - DEBUG - Answer received: !ycorg.apache.spark.util.Utils
+2023-10-12 23:18:29,491 - DEBUG - Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+2023-10-12 23:18:29,491 - DEBUG - Answer received: !ym
+2023-10-12 23:18:29,491 - DEBUG - Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro30
+e
+
+2023-10-12 23:18:29,491 - DEBUG - Answer received: !ysorg.apache.spark.sql.AnalysisException: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.\r\n	at org.apache.spark.sql.errors.QueryCompilationErrors$.failedToFindKafkaDataSourceError(QueryCompilationErrors.scala:1568)\r\n	at org.apache.spark.sql.execution.datasources.DataSource$.lookupDataSource(DataSource.scala:645)\r\n	at org.apache.spark.sql.streaming.DataStreamReader.loadInternal(DataStreamReader.scala:158)\r\n	at org.apache.spark.sql.streaming.DataStreamReader.load(DataStreamReader.scala:145)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\n
+2023-10-12 23:18:29,492 - DEBUG - Command to send: c
+o30
+getCause
+e
+
+2023-10-12 23:18:29,492 - DEBUG - Answer received: !yn
+2023-10-12 23:18:29,492 - DEBUG - Command to send: r
+u
+org
+rj
+e
+
+2023-10-12 23:18:29,493 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,493 - DEBUG - Command to send: r
+u
+org.apache
+rj
+e
+
+2023-10-12 23:18:29,493 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,493 - DEBUG - Command to send: r
+u
+org.apache.spark
+rj
+e
+
+2023-10-12 23:18:29,493 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,494 - DEBUG - Command to send: r
+u
+org.apache.spark.sql
+rj
+e
+
+2023-10-12 23:18:29,494 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,494 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.internal
+rj
+e
+
+2023-10-12 23:18:29,494 - DEBUG - Answer received: !yp
+2023-10-12 23:18:29,494 - DEBUG - Command to send: r
+u
+org.apache.spark.sql.internal.SQLConf
+rj
+e
+
+2023-10-12 23:18:29,494 - DEBUG - Answer received: !ycorg.apache.spark.sql.internal.SQLConf
+2023-10-12 23:18:29,494 - DEBUG - Command to send: r
+m
+org.apache.spark.sql.internal.SQLConf
+get
+e
+
+2023-10-12 23:18:29,495 - DEBUG - Answer received: !ym
+2023-10-12 23:18:29,495 - DEBUG - Command to send: c
+z:org.apache.spark.sql.internal.SQLConf
+get
+e
+
+2023-10-12 23:18:29,498 - DEBUG - Answer received: !yro31
+2023-10-12 23:18:29,498 - DEBUG - Command to send: c
+o31
+pysparkJVMStacktraceEnabled
+e
+
+2023-10-12 23:18:29,498 - DEBUG - Answer received: !ybfalse
+2023-10-12 23:18:29,498 - ERROR - An error occurred: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+2023-10-12 23:18:29,503 - INFO - Closing down clientserver connection
